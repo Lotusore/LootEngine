@@ -1,0 +1,12 @@
+cds\inferno\loot\engine\dto\ItemDto.class
+cds\inferno\loot\engine\model\Item_.class
+cds\inferno\loot\engine\service\ItemMapper.class
+cds\inferno\loot\engine\dao\ItemCustomDao.class
+cds\inferno\loot\engine\model\Item.class
+cds\inferno\loot\engine\PersistenceJPAConfig.class
+cds\inferno\loot\engine\dao\ItemDao.class
+cds\inferno\loot\engine\dao\impl\ItemCustomDaoImpl.class
+cds\inferno\loot\engine\raid\Raid.class
+cds\inferno\loot\engine\rest\ItemsController.class
+cds\inferno\loot\engine\service\ItemService.class
+cds\inferno\loot\engine\Application.class
