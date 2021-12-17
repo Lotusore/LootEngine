@@ -57,8 +57,10 @@ public class PersistenceJPAConfig{
 
     Properties additionalProperties() {
         Properties properties = new Properties();
-        properties.setProperty("hibernate.hbm2ddl.auto", "create-drop");
+        properties.setProperty("spring.jpa.generate-ddl", "true");
+        properties.setProperty("spring.jpa.hibernate.ddl-auto", "create");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
+        properties.setProperty("spring.jpa.defer-datasource-initialization","true");
 
         return properties;
     }
